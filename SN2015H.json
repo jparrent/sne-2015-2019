@@ -1,68 +1,111 @@
 {
-    "SN2015H": {
-        "name": "SN2015H",
-        "aliases": [
-            "SN2015H",
-            "PSN J10544216-2104138"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iau/cbet/004000/CBET004093.txt'>CBET 4093</a>",
-                "alias": "3"
-            },
-            {
-                "name": "Kunihiro Shima",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia P",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "11",
-        "discoverer": "Stu Parker",
-        "discovermonth": "2",
-        "discoveryear": "2015",
-        "galdec": "-210400",
-        "galra": "105440",
-        "host": "NGC 3464",
-        "hvel": "3806",
-        "lumdist": "57.112",
-        "maxabsmag": "-17.784",
-        "maxappmag": "16",
-        "maxday": "11",
-        "maxmonth": "2",
-        "maxyear": "2015",
-        "redshift": "0.01278",
-        "sndec": "-21:04:13.8",
-        "snra": "10:54:42.16",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57064.5",
-                "band": "",
-                "abmag": "16.0",
-                "source": "3,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57066.7188",
-                "band": "U",
-                "abmag": "16.6",
-                "source": "4,2"
-            }
-        ]
-    }
+	"SN2015H":{
+		"name":"SN2015H",
+		"aliases":[
+			"SN2015H",
+			"PSN J10544216-2104138"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"CBET 4093",
+				"url":"http://www.cbat.eps.harvard.edu/iau/cbet/004000/CBET004093.txt",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"Kunihiro Shima",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia P",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"11",
+		"discoverer":"Stu Parker",
+		"discovermonth":"2",
+		"discoveryear":"2015",
+		"galdec":[
+			{
+				"value":"-21:04:00",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"10:54:40",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"NGC 3464",
+				"source":"1,2,3"
+			}
+		],
+		"hvel":[
+			{
+				"value":"3806",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"55.67",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-17.73",
+		"maxappmag":"16",
+		"maxday":"11",
+		"maxmonth":"2",
+		"maxyear":"2015",
+		"redshift":[
+			{
+				"value":"0.01246",
+				"source":"2,3"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-21:04:13.8",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"10:54:42.16",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57064.5",
+				"band":"",
+				"abmag":"16.0",
+				"source":"2,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57066.7188",
+				"band":"U",
+				"abmag":"16.6",
+				"source":"4,3"
+			}
+		]
+	}
 }

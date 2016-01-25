@@ -1,71 +1,98 @@
 {
-    "ASASSN-15sf": {
-        "name": "ASASSN-15sf",
-        "aliases": [
-            "ASASSN-15sf",
-            "PS15cog"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.astronomerstelegram.org/?read=8226'>ATEL 8226</a>",
-                "alias": "2"
-            },
-            {
-                "name": "Joseph Brimacombe",
-                "alias": "3"
-            },
-            {
-                "name": "LLA",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "1"
-            }
-        ],
-        "discoverday": "30",
-        "discoverer": "All Sky Automated Survey for SuperNovae (ASAS-SN)",
-        "discovermonth": "10",
-        "discoveryear": "2015",
-        "hvel": "7990",
-        "lumdist": "122",
-        "maxabsmag": "-18.9",
-        "maxappmag": "16.5",
-        "maxday": "13",
-        "maxmonth": "11",
-        "maxyear": "2015",
-        "redshift": "0.027",
-        "sndec": "-06:25:38.4",
-        "snra": "00:11:27.60",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57325.454",
-                "band": "C",
-                "abmag": "16.6",
-                "source": "3,1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57339.5",
-                "band": "",
-                "abmag": "16.5",
-                "source": "2,1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57340.885",
-                "band": "CV",
-                "abmag": "16.5",
-                "source": "4,1"
-            }
-        ]
-    }
+	"ASASSN-15sf":{
+		"name":"ASASSN-15sf",
+		"aliases":[
+			"ASASSN-15sf",
+			"PS15cog"
+		],
+		"sources":[
+			{
+				"name":"ATEL 8226",
+				"url":"http://www.astronomerstelegram.org/?read=8226",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			},
+			{
+				"name":"Joseph Brimacombe",
+				"alias":"3"
+			},
+			{
+				"name":"LLA",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2"
+			}
+		],
+		"discoverday":"30",
+		"discoverer":"All Sky Automated Survey for SuperNovae (ASAS-SN)",
+		"discovermonth":"10",
+		"discoveryear":"2015",
+		"hvel":[
+			{
+				"value":"8000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"120",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-19",
+		"maxappmag":"16.5",
+		"maxday":"13",
+		"maxmonth":"11",
+		"maxyear":"2015",
+		"redshift":[
+			{
+				"value":"0.027",
+				"source":"1,2"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-06:25:38.4",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"00:11:27.60",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57325.454",
+				"band":"C",
+				"abmag":"16.6",
+				"source":"3,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57339.5",
+				"band":"",
+				"abmag":"16.5",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57340.885",
+				"band":"CV",
+				"abmag":"16.5",
+				"source":"4,2"
+			}
+		]
+	}
 }

@@ -1,39 +1,56 @@
 {
-    "PS15cna": {
-        "name": "PS15cna",
-        "aliases": [
-            "PS15cna"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://star.pst.qub.ac.uk/ps1threepi/psdb/public/'>PS1 SN page</a>",
-                "alias": "2"
-            }
-        ],
-        "discoverday": "18",
-        "discoverer": "PS1",
-        "discovermonth": "10",
-        "discoveryear": "2015",
-        "host": "IRAS F21443-0610",
-        "maxappmag": "19.3",
-        "maxday": "18",
-        "maxmonth": "10",
-        "maxyear": "2015",
-        "sndec": "-05:55:53.8",
-        "snra": "21:46:57.89",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57313.5",
-                "band": "",
-                "abmag": "19.3",
-                "source": "2,1"
-            }
-        ]
-    }
+	"PS15cna":{
+		"name":"PS15cna",
+		"aliases":[
+			"PS15cna"
+		],
+		"sources":[
+			{
+				"name":"PS1 SN page",
+				"url":"http://star.pst.qub.ac.uk/ps1threepi/psdb/public/",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"discoverday":"18",
+		"discoverer":"PS1",
+		"discovermonth":"10",
+		"discoveryear":"2015",
+		"host":[
+			{
+				"value":"IRAS F21443-0610",
+				"source":"1,2"
+			}
+		],
+		"maxappmag":"19.3",
+		"maxday":"18",
+		"maxmonth":"10",
+		"maxyear":"2015",
+		"sndec":[
+			{
+				"value":"-05:55:53.8",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"21:46:57.89",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57313.5",
+				"band":"",
+				"abmag":"19.3",
+				"source":"1,2"
+			}
+		]
+	}
 }

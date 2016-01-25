@@ -1,84 +1,120 @@
 {
-    "Gaia15abu": {
-        "name": "Gaia15abu",
-        "aliases": [
-            "Gaia15abu"
-        ],
-        "sources": [
-            {
-                "name": "<a href='https://gaia.ac.uk/selected-gaia-science-alerts'>Gaia Photometric Science Alerts</a>",
-                "alias": "1"
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://gaia.ac.uk/selected-gaia-science-alerts'>GAIA page</a>",
-                "alias": "3"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia P",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "8",
-        "discoverer": "Gaia Photometric Science Alerts programme",
-        "discovermonth": "2",
-        "discoveryear": "2015",
-        "hvel": "21600",
-        "lumdist": "351",
-        "maxabsmag": "-19.2",
-        "maxappmag": "18.5",
-        "maxday": "9",
-        "maxmonth": "2",
-        "maxyear": "2015",
-        "redshift": "0.075",
-        "sndec": "+41:01:04.3",
-        "snra": "17:04:50.13",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57061.5",
-                "band": "",
-                "abmag": "18.5",
-                "source": "3,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57062.608",
-                "band": "G",
-                "abmag": "18.55",
-                "instrument": "GAIA",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57062.682",
-                "band": "G",
-                "abmag": "18.50",
-                "instrument": "GAIA",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57096.333",
-                "band": "G",
-                "abmag": "20.15",
-                "instrument": "GAIA",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57096.407",
-                "band": "G",
-                "abmag": "20.14",
-                "instrument": "GAIA",
-                "source": "1"
-            }
-        ]
-    }
+	"Gaia15abu":{
+		"name":"Gaia15abu",
+		"aliases":[
+			"Gaia15abu"
+		],
+		"sources":[
+			{
+				"name":"Gaia Photometric Science Alerts",
+				"url":"https://gaia.ac.uk/selected-gaia-science-alerts",
+				"alias":"1"
+			},
+			{
+				"name":"GAIA page",
+				"url":"http://gaia.ac.uk/selected-gaia-science-alerts",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia P",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"8",
+		"discoverer":"Gaia Photometric Science Alerts programme",
+		"discovermonth":"2",
+		"discoveryear":"2015",
+		"hvel":[
+			{
+				"value":"22000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"350",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-19",
+		"maxappmag":"18.5",
+		"maxday":"9",
+		"maxmonth":"2",
+		"maxyear":"2015",
+		"redshift":[
+			{
+				"value":"0.075",
+				"source":"2,3"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+41:01:4.44",
+				"source":"1"
+			},
+			{
+				"value":"+41:01:04.3",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"17:04:50.16",
+				"source":"1"
+			},
+			{
+				"value":"17:04:50.13",
+				"source":"2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57061.5",
+				"band":"",
+				"abmag":"18.5",
+				"source":"2,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57062.608",
+				"band":"G",
+				"abmag":"18.55",
+				"instrument":"GAIA",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57062.682",
+				"band":"G",
+				"abmag":"18.50",
+				"instrument":"GAIA",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57096.333",
+				"band":"G",
+				"abmag":"20.15",
+				"instrument":"GAIA",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57096.407",
+				"band":"G",
+				"abmag":"20.14",
+				"instrument":"GAIA",
+				"source":"1"
+			}
+		]
+	}
 }

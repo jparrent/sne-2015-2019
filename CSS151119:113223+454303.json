@@ -1,39 +1,56 @@
 {
-    "CSS151119:113223+454303": {
-        "name": "CSS151119:113223+454303",
-        "aliases": [
-            "CSS151119:113223+454303"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://nesssi.cacr.caltech.edu/catalina/AllSN.html'>CRTS SN page</a>",
-                "alias": "2"
-            }
-        ],
-        "discoverday": "18",
-        "discoverer": "CRTS",
-        "discovermonth": "11",
-        "discoveryear": "2015",
-        "host": "PGC 2269434",
-        "maxappmag": "19.4",
-        "maxday": "18",
-        "maxmonth": "11",
-        "maxyear": "2015",
-        "sndec": "+45:43:02.10",
-        "snra": "11:32:23.11",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57344.5",
-                "band": "",
-                "abmag": "19.4",
-                "source": "2,1"
-            }
-        ]
-    }
+	"CSS151119:113223+454303":{
+		"name":"CSS151119:113223+454303",
+		"aliases":[
+			"CSS151119:113223+454303"
+		],
+		"sources":[
+			{
+				"name":"CRTS SN page",
+				"url":"http://nesssi.cacr.caltech.edu/catalina/AllSN.html",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"discoverday":"18",
+		"discoverer":"CRTS",
+		"discovermonth":"11",
+		"discoveryear":"2015",
+		"host":[
+			{
+				"value":"PGC 2269434",
+				"source":"1,2"
+			}
+		],
+		"maxappmag":"19.4",
+		"maxday":"18",
+		"maxmonth":"11",
+		"maxyear":"2015",
+		"sndec":[
+			{
+				"value":"+45:43:02.10",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"11:32:23.11",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57344.5",
+				"band":"",
+				"abmag":"19.4",
+				"source":"1,2"
+			}
+		]
+	}
 }

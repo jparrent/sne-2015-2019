@@ -1,47 +1,58 @@
 {
-    "Gaia15afw": {
-        "name": "Gaia15afw",
-        "aliases": [
-            "Gaia15afw"
-        ],
-        "sources": [
-            {
-                "name": "<a href='https://gaia.ac.uk/selected-gaia-science-alerts'>Gaia Photometric Science Alerts</a>",
-                "alias": "1"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "1"
-            }
-        ],
-        "discoverday": "24",
-        "discovermonth": "5",
-        "discoveryear": "2015",
-        "maxappmag": "17.36",
-        "maxday": "24",
-        "maxmonth": "5",
-        "maxyear": "2015",
-        "sndec": "-2.88797",
-        "snra": "149.99810",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57166.210",
-                "band": "G",
-                "abmag": "17.36",
-                "instrument": "GAIA",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57166.284",
-                "band": "G",
-                "abmag": "17.44",
-                "instrument": "GAIA",
-                "source": "1"
-            }
-        ]
-    }
+	"Gaia15afw":{
+		"name":"Gaia15afw",
+		"aliases":[
+			"Gaia15afw"
+		],
+		"sources":[
+			{
+				"name":"Gaia Photometric Science Alerts",
+				"url":"https://gaia.ac.uk/selected-gaia-science-alerts",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1"
+			}
+		],
+		"discoverday":"24",
+		"discovermonth":"5",
+		"discoveryear":"2015",
+		"maxappmag":"17.36",
+		"maxday":"24",
+		"maxmonth":"5",
+		"maxyear":"2015",
+		"sndec":[
+			{
+				"value":"-02:53:16.69",
+				"source":"1"
+			}
+		],
+		"snra":[
+			{
+				"value":"09:59:59.52",
+				"source":"1"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57166.210",
+				"band":"G",
+				"abmag":"17.36",
+				"instrument":"GAIA",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57166.284",
+				"band":"G",
+				"abmag":"17.44",
+				"instrument":"GAIA",
+				"source":"1"
+			}
+		]
+	}
 }

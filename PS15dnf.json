@@ -1,42 +1,69 @@
 {
-    "PS15dnf": {
-        "name": "PS15dnf",
-        "aliases": [
-            "PS15dnf"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://star.pst.qub.ac.uk/ps1threepi/psdb/public/'>PS1 SN page</a>",
-                "alias": "2"
-            }
-        ],
-        "discoverday": "12",
-        "discoverer": "PS1",
-        "discovermonth": "12",
-        "discoveryear": "2015",
-        "hvel": "23900",
-        "lumdist": "390",
-        "maxabsmag": "-17.3",
-        "maxappmag": "20.7",
-        "maxday": "12",
-        "maxmonth": "12",
-        "maxyear": "2015",
-        "redshift": "0.083",
-        "sndec": "-02:09:42.1",
-        "snra": "09:57:34.89",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57368.5",
-                "band": "",
-                "abmag": "20.7",
-                "source": "2,1"
-            }
-        ]
-    }
+	"PS15dnf":{
+		"name":"PS15dnf",
+		"aliases":[
+			"PS15dnf"
+		],
+		"sources":[
+			{
+				"name":"PS1 SN page",
+				"url":"http://star.pst.qub.ac.uk/ps1threepi/psdb/public/",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"discoverday":"12",
+		"discoverer":"PS1",
+		"discovermonth":"12",
+		"discoveryear":"2015",
+		"hvel":[
+			{
+				"value":"24000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"390",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-17",
+		"maxappmag":"20.7",
+		"maxday":"12",
+		"maxmonth":"12",
+		"maxyear":"2015",
+		"redshift":[
+			{
+				"value":"0.083",
+				"source":"1,2"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-02:09:42.1",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"09:57:34.89",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57368.5",
+				"band":"",
+				"abmag":"20.7",
+				"source":"1,2"
+			}
+		]
+	}
 }

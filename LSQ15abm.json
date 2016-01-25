@@ -1,59 +1,86 @@
 {
-    "LSQ15abm": {
-        "name": "LSQ15abm",
-        "aliases": [
-            "LSQ15abm"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.astronomerstelegram.org/?read=7415'>ATEL 7415</a>",
-                "alias": "2"
-            },
-            {
-                "name": "Joseph Brimacombe",
-                "alias": "3"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "1"
-            }
-        ],
-        "discoverday": "31",
-        "discoverer": "La Silla-QUEST",
-        "discovermonth": "3",
-        "discoveryear": "2015",
-        "hvel": "26000",
-        "lumdist": "430",
-        "maxabsmag": "-19.5",
-        "maxappmag": "18.7",
-        "maxday": "31",
-        "maxmonth": "3",
-        "maxyear": "2015",
-        "redshift": "0.091",
-        "sndec": "-07:11:05.1",
-        "snra": "11:37:35.11",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57112.5",
-                "band": "",
-                "abmag": "18.7",
-                "source": "2,1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57134.294",
-                "band": "C",
-                "abmag": "19.6",
-                "source": "3,1"
-            }
-        ]
-    }
+	"LSQ15abm":{
+		"name":"LSQ15abm",
+		"aliases":[
+			"LSQ15abm"
+		],
+		"sources":[
+			{
+				"name":"ATEL 7415",
+				"url":"http://www.astronomerstelegram.org/?read=7415",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			},
+			{
+				"name":"Joseph Brimacombe",
+				"alias":"3"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2"
+			}
+		],
+		"discoverday":"31",
+		"discoverer":"La Silla-QUEST",
+		"discovermonth":"3",
+		"discoveryear":"2015",
+		"hvel":[
+			{
+				"value":"26000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"430",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-19",
+		"maxappmag":"18.7",
+		"maxday":"31",
+		"maxmonth":"3",
+		"maxyear":"2015",
+		"redshift":[
+			{
+				"value":"0.091",
+				"source":"1,2"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-07:11:05.1",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"11:37:35.11",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57112.5",
+				"band":"",
+				"abmag":"18.7",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57134.294",
+				"band":"C",
+				"abmag":"19.6",
+				"source":"3,2"
+			}
+		]
+	}
 }

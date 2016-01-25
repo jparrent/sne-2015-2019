@@ -1,60 +1,92 @@
 {
-    "ASASSN-15jp": {
-        "name": "ASASSN-15jp",
-        "aliases": [
-            "ASASSN-15jp"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.astronomerstelegram.org/?read=7546'>ATEL 7546</a>",
-                "alias": "2"
-            },
-            {
-                "name": "Joseph Brimacombe",
-                "alias": "3"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "1"
-            }
-        ],
-        "discoverday": "21",
-        "discoverer": "All Sky Automated Survey for SuperNovae (ASAS-SN)",
-        "discovermonth": "5",
-        "discoveryear": "2015",
-        "host": "NGC 3157",
-        "hvel": "2828",
-        "lumdist": "42.246",
-        "maxabsmag": "-17.7289",
-        "maxappmag": "15.4",
-        "maxday": "21",
-        "maxmonth": "5",
-        "maxyear": "2015",
-        "redshift": "0.009477",
-        "sndec": "-31:39:04.0",
-        "snra": "10:11:38.99",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57163.5",
-                "band": "",
-                "abmag": "15.4",
-                "source": "2,1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57164.534",
-                "band": "C",
-                "abmag": "15.4",
-                "source": "3,1"
-            }
-        ]
-    }
+	"ASASSN-15jp":{
+		"name":"ASASSN-15jp",
+		"aliases":[
+			"ASASSN-15jp"
+		],
+		"sources":[
+			{
+				"name":"ATEL 7546",
+				"url":"http://www.astronomerstelegram.org/?read=7546",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			},
+			{
+				"name":"Joseph Brimacombe",
+				"alias":"3"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2"
+			}
+		],
+		"discoverday":"21",
+		"discoverer":"All Sky Automated Survey for SuperNovae (ASAS-SN)",
+		"discovermonth":"5",
+		"discoveryear":"2015",
+		"host":[
+			{
+				"value":"NGC 3157",
+				"source":"1,2"
+			}
+		],
+		"hvel":[
+			{
+				"value":"2828",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"42.25",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-17.73",
+		"maxappmag":"15.4",
+		"maxday":"21",
+		"maxmonth":"5",
+		"maxyear":"2015",
+		"redshift":[
+			{
+				"value":"0.009477",
+				"source":"1,2"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-31:39:04.0",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"10:11:38.99",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57163.5",
+				"band":"",
+				"abmag":"15.4",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57164.534",
+				"band":"C",
+				"abmag":"15.4",
+				"source":"3,2"
+			}
+		]
+	}
 }

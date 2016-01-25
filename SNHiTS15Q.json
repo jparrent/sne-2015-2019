@@ -1,38 +1,50 @@
 {
-    "SNHiTS15Q": {
-        "name": "SNHiTS15Q",
-        "aliases": [
-            "SNHiTS15Q"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.astronomerstelegram.org/?read=7122'>ATEL 7122</a>",
-                "alias": "2"
-            }
-        ],
-        "discoverday": "21",
-        "discoverer": "High Cadence Transient Survey (HiTS)",
-        "discovermonth": "2",
-        "discoveryear": "2015",
-        "maxappmag": "22.2",
-        "maxday": "21",
-        "maxmonth": "2",
-        "maxyear": "2015",
-        "sndec": "+01:58:09.33",
-        "snra": "09:58:16.241",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57074.5",
-                "band": "",
-                "abmag": "22.2",
-                "source": "2,1"
-            }
-        ]
-    }
+	"SNHiTS15Q":{
+		"name":"SNHiTS15Q",
+		"aliases":[
+			"SNHiTS15Q"
+		],
+		"sources":[
+			{
+				"name":"ATEL 7122",
+				"url":"http://www.astronomerstelegram.org/?read=7122",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"discoverday":"21",
+		"discoverer":"High Cadence Transient Survey (HiTS)",
+		"discovermonth":"2",
+		"discoveryear":"2015",
+		"maxappmag":"22.2",
+		"maxday":"21",
+		"maxmonth":"2",
+		"maxyear":"2015",
+		"sndec":[
+			{
+				"value":"+01:58:09.33",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"09:58:16.241",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57074.5",
+				"band":"",
+				"abmag":"22.2",
+				"source":"1,2"
+			}
+		]
+	}
 }

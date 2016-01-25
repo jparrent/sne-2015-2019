@@ -1,55 +1,66 @@
 {
-    "Gaia15aet": {
-        "name": "Gaia15aet",
-        "aliases": [
-            "Gaia15aet"
-        ],
-        "sources": [
-            {
-                "name": "<a href='https://gaia.ac.uk/selected-gaia-science-alerts'>Gaia Photometric Science Alerts</a>",
-                "alias": "1"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "IIb",
-                "source": "1"
-            }
-        ],
-        "discoverday": "26",
-        "discovermonth": "4",
-        "discoveryear": "2015",
-        "maxappmag": "16.79",
-        "maxday": "26",
-        "maxmonth": "4",
-        "maxyear": "2015",
-        "sndec": "25.93442",
-        "snra": "135.65769",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57138.988",
-                "band": "G",
-                "abmag": "16.79",
-                "instrument": "GAIA",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57139.062",
-                "band": "G",
-                "abmag": "16.95",
-                "instrument": "GAIA",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57175.291",
-                "band": "G",
-                "abmag": "18.18",
-                "instrument": "GAIA",
-                "source": "1"
-            }
-        ]
-    }
+	"Gaia15aet":{
+		"name":"Gaia15aet",
+		"aliases":[
+			"Gaia15aet"
+		],
+		"sources":[
+			{
+				"name":"Gaia Photometric Science Alerts",
+				"url":"https://gaia.ac.uk/selected-gaia-science-alerts",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"IIb",
+				"source":"1"
+			}
+		],
+		"discoverday":"26",
+		"discovermonth":"4",
+		"discoveryear":"2015",
+		"maxappmag":"16.79",
+		"maxday":"26",
+		"maxmonth":"4",
+		"maxyear":"2015",
+		"sndec":[
+			{
+				"value":"+25:56:3.84",
+				"source":"1"
+			}
+		],
+		"snra":[
+			{
+				"value":"09:02:37.92",
+				"source":"1"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57138.988",
+				"band":"G",
+				"abmag":"16.79",
+				"instrument":"GAIA",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57139.062",
+				"band":"G",
+				"abmag":"16.95",
+				"instrument":"GAIA",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57175.291",
+				"band":"G",
+				"abmag":"18.18",
+				"instrument":"GAIA",
+				"source":"1"
+			}
+		]
+	}
 }

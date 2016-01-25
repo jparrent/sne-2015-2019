@@ -1,57 +1,104 @@
 {
-    "SN2015O": {
-        "name": "SN2015O",
-        "aliases": [
-            "SN2015O",
-            "PSN J18134923+1314159"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iau/cbet/004100/CBET004125.txt'>CBET 4125</a>",
-                "alias": "3"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "21",
-        "discoverer": "LOSS",
-        "discovermonth": "6",
-        "discoveryear": "2015",
-        "galdec": "+131422",
-        "galra": "181349",
-        "host": "PGC 1426131",
-        "hvel": "16800",
-        "lumdist": "266.4",
-        "maxabsmag": "-18.83",
-        "maxappmag": "18.3",
-        "maxday": "21",
-        "maxmonth": "6",
-        "maxyear": "2015",
-        "redshift": "0.0577",
-        "sndec": "+13:14:15.9",
-        "snra": "18:13:49.23",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57194.5",
-                "band": "",
-                "abmag": "18.3",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN2015O":{
+		"name":"SN2015O",
+		"aliases":[
+			"SN2015O",
+			"PSN J18134923+1314159"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"CBET 4125",
+				"url":"http://www.cbat.eps.harvard.edu/iau/cbet/004100/CBET004125.txt",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"21",
+		"discoverer":"LOSS",
+		"discovermonth":"6",
+		"discoveryear":"2015",
+		"galdec":[
+			{
+				"value":"+13:14:22",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"18:13:49",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"PGC1426131",
+				"source":"1"
+			},
+			{
+				"value":"PGC 1426131",
+				"source":"2,3"
+			}
+		],
+		"hvel":[
+			{
+				"value":"16800",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"260",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-19",
+		"maxappmag":"18.3",
+		"maxday":"21",
+		"maxmonth":"6",
+		"maxyear":"2015",
+		"redshift":[
+			{
+				"value":"0.056",
+				"source":"2,3"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+13:14:15.9",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"18:13:49.23",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57194.5",
+				"band":"",
+				"abmag":"18.3",
+				"source":"2,3"
+			}
+		]
+	}
 }

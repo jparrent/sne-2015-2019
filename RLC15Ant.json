@@ -1,44 +1,76 @@
 {
-    "RLC15Ant": {
-        "name": "RLC15Ant",
-        "aliases": [
-            "RLC15Ant",
-            "SN Antikythera"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.astronomerstelegram.org/?read=8170'>ATEL 8170</a>",
-                "alias": "2"
-            }
-        ],
-        "discoverday": "8",
-        "discoverer": "HST",
-        "discovermonth": "10",
-        "discoveryear": "2015",
-        "host": "MACSJ0949.8+1708",
-        "hvel": "93900",
-        "lumdist": "2130",
-        "maxabsmag": "-18.1",
-        "maxappmag": "23.5",
-        "maxday": "8",
-        "maxmonth": "10",
-        "maxyear": "2015",
-        "redshift": "0.383",
-        "sndec": "+17:07:23.0",
-        "snra": "09:49:48.01",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57303.5",
-                "band": "",
-                "abmag": "23.5",
-                "source": "2,1"
-            }
-        ]
-    }
+	"RLC15Ant":{
+		"name":"RLC15Ant",
+		"aliases":[
+			"RLC15Ant",
+			"SN Antikythera"
+		],
+		"sources":[
+			{
+				"name":"ATEL 8170",
+				"url":"http://www.astronomerstelegram.org/?read=8170",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"discoverday":"8",
+		"discoverer":"HST",
+		"discovermonth":"10",
+		"discoveryear":"2015",
+		"host":[
+			{
+				"value":"MACSJ0949.8+1708",
+				"source":"1,2"
+			}
+		],
+		"hvel":[
+			{
+				"value":"93900",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"2130",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-18.1",
+		"maxappmag":"23.5",
+		"maxday":"8",
+		"maxmonth":"10",
+		"maxyear":"2015",
+		"redshift":[
+			{
+				"value":"0.383",
+				"source":"1,2"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+17:07:23.0",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"09:49:48.01",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57303.5",
+				"band":"",
+				"abmag":"23.5",
+				"source":"1,2"
+			}
+		]
+	}
 }

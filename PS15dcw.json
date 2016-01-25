@@ -1,48 +1,75 @@
 {
-    "PS15dcw": {
-        "name": "PS15dcw",
-        "aliases": [
-            "PS15dcw"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://star.pst.qub.ac.uk/ps1threepi/psdb/public/'>PS1 SN page</a>",
-                "alias": "2"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "1"
-            }
-        ],
-        "discoverday": "4",
-        "discoverer": "PS1",
-        "discovermonth": "12",
-        "discoveryear": "2015",
-        "hvel": "23000",
-        "lumdist": "380",
-        "maxabsmag": "-19",
-        "maxappmag": "19.1",
-        "maxday": "4",
-        "maxmonth": "12",
-        "maxyear": "2015",
-        "redshift": "0.08",
-        "sndec": "+06:43:26.7",
-        "snra": "08:46:36.42",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57360.5",
-                "band": "",
-                "abmag": "19.1",
-                "source": "2,1"
-            }
-        ]
-    }
+	"PS15dcw":{
+		"name":"PS15dcw",
+		"aliases":[
+			"PS15dcw"
+		],
+		"sources":[
+			{
+				"name":"PS1 SN page",
+				"url":"http://star.pst.qub.ac.uk/ps1threepi/psdb/public/",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2"
+			}
+		],
+		"discoverday":"4",
+		"discoverer":"PS1",
+		"discovermonth":"12",
+		"discoveryear":"2015",
+		"hvel":[
+			{
+				"value":"20000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"400",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"19.1",
+		"maxday":"4",
+		"maxmonth":"12",
+		"maxyear":"2015",
+		"redshift":[
+			{
+				"value":"0.08",
+				"source":"1,2"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+06:43:26.7",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"08:46:36.42",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57360.5",
+				"band":"",
+				"abmag":"19.1",
+				"source":"1,2"
+			}
+		]
+	}
 }

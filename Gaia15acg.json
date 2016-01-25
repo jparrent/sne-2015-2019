@@ -1,63 +1,74 @@
 {
-    "Gaia15acg": {
-        "name": "Gaia15acg",
-        "aliases": [
-            "Gaia15acg"
-        ],
-        "sources": [
-            {
-                "name": "<a href='https://gaia.ac.uk/selected-gaia-science-alerts'>Gaia Photometric Science Alerts</a>",
-                "alias": "1"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "1"
-            }
-        ],
-        "discoverday": "15",
-        "discovermonth": "2",
-        "discoveryear": "2015",
-        "maxappmag": "17.73",
-        "maxday": "16",
-        "maxmonth": "2",
-        "maxyear": "2015",
-        "sndec": "-16.89453",
-        "snra": "82.55474",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57068.990",
-                "band": "G",
-                "abmag": "17.78",
-                "instrument": "GAIA",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57069.064",
-                "band": "G",
-                "abmag": "17.73",
-                "instrument": "GAIA",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57099.549",
-                "band": "G",
-                "abmag": "18.13",
-                "instrument": "GAIA",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57099.725",
-                "band": "G",
-                "abmag": "18.15",
-                "instrument": "GAIA",
-                "source": "1"
-            }
-        ]
-    }
+	"Gaia15acg":{
+		"name":"Gaia15acg",
+		"aliases":[
+			"Gaia15acg"
+		],
+		"sources":[
+			{
+				"name":"Gaia Photometric Science Alerts",
+				"url":"https://gaia.ac.uk/selected-gaia-science-alerts",
+				"alias":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1"
+			}
+		],
+		"discoverday":"15",
+		"discovermonth":"2",
+		"discoveryear":"2015",
+		"maxappmag":"17.73",
+		"maxday":"16",
+		"maxmonth":"2",
+		"maxyear":"2015",
+		"sndec":[
+			{
+				"value":"-16:53:40.2",
+				"source":"1"
+			}
+		],
+		"snra":[
+			{
+				"value":"05:30:13.13",
+				"source":"1"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57068.990",
+				"band":"G",
+				"abmag":"17.78",
+				"instrument":"GAIA",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57069.064",
+				"band":"G",
+				"abmag":"17.73",
+				"instrument":"GAIA",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57099.549",
+				"band":"G",
+				"abmag":"18.13",
+				"instrument":"GAIA",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57099.725",
+				"band":"G",
+				"abmag":"18.15",
+				"instrument":"GAIA",
+				"source":"1"
+			}
+		]
+	}
 }

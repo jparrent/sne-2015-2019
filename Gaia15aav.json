@@ -1,112 +1,148 @@
 {
-    "Gaia15aav": {
-        "name": "Gaia15aav",
-        "aliases": [
-            "Gaia15aav"
-        ],
-        "sources": [
-            {
-                "name": "<a href='https://gaia.ac.uk/selected-gaia-science-alerts'>Gaia Photometric Science Alerts</a>",
-                "alias": "1"
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://gaia.ac.uk/selected-gaia-science-alerts'>GAIA page</a>",
-                "alias": "3"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II?",
-                "source": "1"
-            },
-            {
-                "type": "II",
-                "source": "2"
-            }
-        ],
-        "discoverday": "17",
-        "discoverer": "Gaia Photometric Science Alerts programme",
-        "discovermonth": "1",
-        "discoveryear": "2015",
-        "hvel": "36000",
-        "lumdist": "630",
-        "maxabsmag": "-20",
-        "maxappmag": "18.6",
-        "maxday": "17",
-        "maxmonth": "1",
-        "maxyear": "2015",
-        "redshift": "0.13",
-        "sndec": "+58:57:16.8",
-        "snra": "10:57:36.08",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57039.5",
-                "band": "",
-                "abmag": "18.6",
-                "source": "3,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57040.857",
-                "band": "G",
-                "abmag": "18.81",
-                "instrument": "GAIA",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57040.931",
-                "band": "G",
-                "abmag": "18.61",
-                "instrument": "GAIA",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57048.111",
-                "band": "G",
-                "abmag": "18.79",
-                "instrument": "GAIA",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57048.361",
-                "band": "G",
-                "abmag": "18.84",
-                "instrument": "GAIA",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57093.293",
-                "band": "G",
-                "abmag": "19.35",
-                "instrument": "GAIA",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57093.367",
-                "band": "G",
-                "abmag": "19.26",
-                "instrument": "GAIA",
-                "source": "1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57108.370",
-                "band": "G",
-                "abmag": "19.46",
-                "instrument": "GAIA",
-                "source": "1"
-            }
-        ]
-    }
+	"Gaia15aav":{
+		"name":"Gaia15aav",
+		"aliases":[
+			"Gaia15aav"
+		],
+		"sources":[
+			{
+				"name":"Gaia Photometric Science Alerts",
+				"url":"https://gaia.ac.uk/selected-gaia-science-alerts",
+				"alias":"1"
+			},
+			{
+				"name":"GAIA page",
+				"url":"http://gaia.ac.uk/selected-gaia-science-alerts",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II?",
+				"source":"1"
+			},
+			{
+				"value":"II",
+				"source":"2,3"
+			}
+		],
+		"discoverday":"17",
+		"discoverer":"Gaia Photometric Science Alerts programme",
+		"discovermonth":"1",
+		"discoveryear":"2015",
+		"hvel":[
+			{
+				"value":"36000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"630",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"18.6",
+		"maxday":"17",
+		"maxmonth":"1",
+		"maxyear":"2015",
+		"redshift":[
+			{
+				"value":"0.13",
+				"source":"2,3"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+58:57:16.92",
+				"source":"1"
+			},
+			{
+				"value":"+58:57:16.8",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"10:57:36",
+				"source":"1"
+			},
+			{
+				"value":"10:57:36.08",
+				"source":"2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57039.5",
+				"band":"",
+				"abmag":"18.6",
+				"source":"2,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57040.857",
+				"band":"G",
+				"abmag":"18.81",
+				"instrument":"GAIA",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57040.931",
+				"band":"G",
+				"abmag":"18.61",
+				"instrument":"GAIA",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57048.111",
+				"band":"G",
+				"abmag":"18.79",
+				"instrument":"GAIA",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57048.361",
+				"band":"G",
+				"abmag":"18.84",
+				"instrument":"GAIA",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57093.293",
+				"band":"G",
+				"abmag":"19.35",
+				"instrument":"GAIA",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57093.367",
+				"band":"G",
+				"abmag":"19.26",
+				"instrument":"GAIA",
+				"source":"1"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57108.370",
+				"band":"G",
+				"abmag":"19.46",
+				"instrument":"GAIA",
+				"source":"1"
+			}
+		]
+	}
 }

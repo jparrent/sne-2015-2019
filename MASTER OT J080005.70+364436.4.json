@@ -1,50 +1,82 @@
 {
-    "MASTER OT J080005.70+364436.4": {
-        "name": "MASTER OT J080005.70+364436.4",
-        "aliases": [
-            "MASTER OT J080005.70+364436.4",
-            "PS15cyi"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.astronomerstelegram.org/?read=8173'>ATEL 8173</a>",
-                "alias": "2"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "IIn",
-                "source": "1"
-            }
-        ],
-        "discoverday": "14",
-        "discoverer": "MASTER",
-        "discovermonth": "10",
-        "discoveryear": "2015",
-        "host": "PGC 2086067",
-        "hvel": "11680",
-        "lumdist": "181.26",
-        "maxabsmag": "-18.892",
-        "maxappmag": "17.4",
-        "maxday": "14",
-        "maxmonth": "10",
-        "maxyear": "2015",
-        "redshift": "0.03976",
-        "sndec": "+36:44:36.4",
-        "snra": "08:00:05.70",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57309.5",
-                "band": "",
-                "abmag": "17.4",
-                "source": "2,1"
-            }
-        ]
-    }
+	"MASTER OT J080005.70+364436.4":{
+		"name":"MASTER OT J080005.70+364436.4",
+		"aliases":[
+			"MASTER OT J080005.70+364436.4",
+			"PS15cyi"
+		],
+		"sources":[
+			{
+				"name":"ATEL 8173",
+				"url":"http://www.astronomerstelegram.org/?read=8173",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"IIn",
+				"source":"1,2"
+			}
+		],
+		"discoverday":"14",
+		"discoverer":"MASTER",
+		"discovermonth":"10",
+		"discoveryear":"2015",
+		"host":[
+			{
+				"value":"PGC 2086067",
+				"source":"1,2"
+			}
+		],
+		"hvel":[
+			{
+				"value":"11680",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"181.3",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-18.89",
+		"maxappmag":"17.4",
+		"maxday":"14",
+		"maxmonth":"10",
+		"maxyear":"2015",
+		"redshift":[
+			{
+				"value":"0.03976",
+				"source":"1,2"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+36:44:36.4",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"08:00:05.70",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57309.5",
+				"band":"",
+				"abmag":"17.4",
+				"source":"1,2"
+			}
+		]
+	}
 }

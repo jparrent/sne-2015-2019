@@ -1,93 +1,144 @@
 {
-    "SN2015bb": {
-        "name": "SN2015bb",
-        "aliases": [
-            "SN2015bb",
-            "PSN J14513783+4035514"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iau/cbet/004200/CBET004211.txt'>CBET 4211</a>",
-                "alias": "3"
-            },
-            {
-                "name": "Kunihiro Shima",
-                "alias": "4"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ib/c",
-                "source": "1"
-            },
-            {
-                "type": "Ic",
-                "source": "2"
-            }
-        ],
-        "discoverday": "16",
-        "discoverer": "Kunihiro Shima",
-        "discovermonth": "11",
-        "discoveryear": "2015",
-        "galdec": "+403557",
-        "galra": "145139",
-        "host": "NGC 5772",
-        "hvel": "4916",
-        "lumdist": "74.079",
-        "maxabsmag": "-18.348",
-        "maxappmag": "16",
-        "maxday": "18",
-        "maxmonth": "11",
-        "maxyear": "2015",
-        "redshift": "0.01653",
-        "sndec": "+40:35:51.0",
-        "snra": "14:51:37.00",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57342.8167",
-                "band": "U",
-                "abmag": "17.0",
-                "source": "4,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57344.5",
-                "band": "",
-                "abmag": "16.0",
-                "source": "3,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57360.8368",
-                "band": "U",
-                "abmag": "18.0",
-                "source": "4,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57361.8108",
-                "band": "U",
-                "abmag": "17.7",
-                "source": "4,2"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57363.8618",
-                "band": "U",
-                "abmag": "17.9",
-                "source": "4,2"
-            }
-        ]
-    }
+	"SN2015bb":{
+		"name":"SN2015bb",
+		"aliases":[
+			"SN2015bb",
+			"PSN J14513783+4035514"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"CBET 4211",
+				"url":"http://www.cbat.eps.harvard.edu/iau/cbet/004200/CBET004211.txt",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			},
+			{
+				"name":"Kunihiro Shima",
+				"alias":"4"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ib/c",
+				"source":"1"
+			},
+			{
+				"value":"Ic",
+				"source":"2,3"
+			}
+		],
+		"discoverday":"16",
+		"discoverer":"Kunihiro Shima",
+		"discovermonth":"11",
+		"discoveryear":"2015",
+		"galdec":[
+			{
+				"value":"+40:35:57",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"14:51:39",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"NGC 5772",
+				"source":"1,2,3"
+			}
+		],
+		"hvel":[
+			{
+				"value":"4916",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"73.24",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-18.324",
+		"maxappmag":"16",
+		"maxday":"18",
+		"maxmonth":"11",
+		"maxyear":"2015",
+		"redshift":[
+			{
+				"value":"0.016345",
+				"source":"2,3"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+40:35:51.4",
+				"source":"1"
+			},
+			{
+				"value":"+40:35:51.0",
+				"source":"2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"14:51:37.83",
+				"source":"1"
+			},
+			{
+				"value":"14:51:37.00",
+				"source":"2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57342.8167",
+				"band":"U",
+				"abmag":"17.0",
+				"source":"4,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57344.5",
+				"band":"",
+				"abmag":"16.0",
+				"source":"2,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57360.8368",
+				"band":"U",
+				"abmag":"18.0",
+				"source":"4,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57361.8108",
+				"band":"U",
+				"abmag":"17.7",
+				"source":"4,3"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57363.8618",
+				"band":"U",
+				"abmag":"17.9",
+				"source":"4,3"
+			}
+		]
+	}
 }

@@ -1,49 +1,76 @@
 {
-    "LSQ15rw": {
-        "name": "LSQ15rw",
-        "aliases": [
-            "LSQ15rw",
-            "LSQ14rw"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.astronomerstelegram.org/?read=7214'>ATEL 7214</a>",
-                "alias": "2"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "IIb",
-                "source": "1"
-            }
-        ],
-        "discoverday": "21",
-        "discoverer": "La Silla-QUEST",
-        "discovermonth": "2",
-        "discoveryear": "2015",
-        "hvel": "6230",
-        "lumdist": "94.4",
-        "maxabsmag": "-15.4",
-        "maxappmag": "19.5",
-        "maxday": "21",
-        "maxmonth": "2",
-        "maxyear": "2015",
-        "redshift": "0.021",
-        "sndec": "-13:39:27.4",
-        "snra": "14:32:31.33",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57074.5",
-                "band": "",
-                "abmag": "19.5",
-                "source": "2,1"
-            }
-        ]
-    }
+	"LSQ15rw":{
+		"name":"LSQ15rw",
+		"aliases":[
+			"LSQ15rw",
+			"LSQ14rw"
+		],
+		"sources":[
+			{
+				"name":"ATEL 7214",
+				"url":"http://www.astronomerstelegram.org/?read=7214",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"IIb",
+				"source":"1,2"
+			}
+		],
+		"discoverday":"21",
+		"discoverer":"La Silla-QUEST",
+		"discovermonth":"2",
+		"discoveryear":"2015",
+		"hvel":[
+			{
+				"value":"6200",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"94",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-15",
+		"maxappmag":"19.5",
+		"maxday":"21",
+		"maxmonth":"2",
+		"maxyear":"2015",
+		"redshift":[
+			{
+				"value":"0.021",
+				"source":"1,2"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-13:39:27.4",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"14:32:31.33",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57074.5",
+				"band":"",
+				"abmag":"19.5",
+				"source":"1,2"
+			}
+		]
+	}
 }

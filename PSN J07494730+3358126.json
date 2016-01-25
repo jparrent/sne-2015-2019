@@ -1,0 +1,57 @@
+{
+	"PSN J07494730+3358126":{
+		"name":"PSN J07494730+3358126",
+		"aliases":[
+			"PSN J07494730+3358126",
+			"SNhunt301"
+		],
+		"sources":[
+			{
+				"name":"CBAT TOCP",
+				"url":"http://www.cbat.eps.harvard.edu/unconf/followups/J07494730+3358126.html",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"discoverday":"21",
+		"discoverer":"CRTS",
+		"discovermonth":"1",
+		"discoveryear":"2016",
+		"host":[
+			{
+				"value":"IC 2207",
+				"source":"1,2"
+			}
+		],
+		"maxappmag":"18.2",
+		"maxday":"21",
+		"maxmonth":"1",
+		"maxyear":"2016",
+		"sndec":[
+			{
+				"value":"+33:58:12.6",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"07:49:47.30",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57408.5",
+				"band":"",
+				"abmag":"18.2",
+				"source":"1,2"
+			}
+		]
+	}
+}

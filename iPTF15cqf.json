@@ -1,49 +1,81 @@
 {
-    "iPTF15cqf": {
-        "name": "iPTF15cqf",
-        "aliases": [
-            "iPTF15cqf"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.astronomerstelegram.org/?read=8130'>ATEL 8130</a>",
-                "alias": "2"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "1"
-            }
-        ],
-        "discoverday": "3",
-        "discoverer": "PTF",
-        "discovermonth": "9",
-        "discoveryear": "2015",
-        "host": "PGC 1619741",
-        "hvel": "23000",
-        "lumdist": "380",
-        "maxabsmag": "-19",
-        "maxappmag": "18.6",
-        "maxday": "3",
-        "maxmonth": "9",
-        "maxyear": "2015",
-        "redshift": "0.08",
-        "sndec": "+20:11:58.94",
-        "snra": "21:15:46.395",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57268.5",
-                "band": "",
-                "abmag": "18.6",
-                "source": "2,1"
-            }
-        ]
-    }
+	"iPTF15cqf":{
+		"name":"iPTF15cqf",
+		"aliases":[
+			"iPTF15cqf"
+		],
+		"sources":[
+			{
+				"name":"ATEL 8130",
+				"url":"http://www.astronomerstelegram.org/?read=8130",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2"
+			}
+		],
+		"discoverday":"3",
+		"discoverer":"PTF",
+		"discovermonth":"9",
+		"discoveryear":"2015",
+		"host":[
+			{
+				"value":"PGC 1619741",
+				"source":"1,2"
+			}
+		],
+		"hvel":[
+			{
+				"value":"20000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"400",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"18.6",
+		"maxday":"3",
+		"maxmonth":"9",
+		"maxyear":"2015",
+		"redshift":[
+			{
+				"value":"0.08",
+				"source":"1,2"
+			}
+		],
+		"sndec":[
+			{
+				"value":"+20:11:58.94",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"21:15:46.395",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57268.5",
+				"band":"",
+				"abmag":"18.6",
+				"source":"1,2"
+			}
+		]
+	}
 }

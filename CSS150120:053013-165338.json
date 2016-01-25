@@ -1,49 +1,76 @@
 {
-    "CSS150120:053013-165338": {
-        "name": "CSS150120:053013-165338",
-        "aliases": [
-            "CSS150120:053013-165338",
-            "Gaia15acg"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://nesssi.cacr.caltech.edu/catalina/AllSN.html'>CRTS SN page</a>",
-                "alias": "2"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "II",
-                "source": "1"
-            }
-        ],
-        "discoverday": "19",
-        "discoverer": "CRTS",
-        "discovermonth": "1",
-        "discoveryear": "2015",
-        "hvel": "5900",
-        "lumdist": "90",
-        "maxabsmag": "-18",
-        "maxappmag": "17",
-        "maxday": "19",
-        "maxmonth": "1",
-        "maxyear": "2015",
-        "redshift": "0.02",
-        "sndec": "-16:53:37.10",
-        "snra": "05:30:13.08",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57041.5",
-                "band": "",
-                "abmag": "17.0",
-                "source": "2,1"
-            }
-        ]
-    }
+	"CSS150120:053013-165338":{
+		"name":"CSS150120:053013-165338",
+		"aliases":[
+			"CSS150120:053013-165338",
+			"Gaia15acg"
+		],
+		"sources":[
+			{
+				"name":"CRTS SN page",
+				"url":"http://nesssi.cacr.caltech.edu/catalina/AllSN.html",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"II",
+				"source":"1,2"
+			}
+		],
+		"discoverday":"19",
+		"discoverer":"CRTS",
+		"discovermonth":"1",
+		"discoveryear":"2015",
+		"hvel":[
+			{
+				"value":"6000",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"90",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-20",
+		"maxappmag":"17",
+		"maxday":"19",
+		"maxmonth":"1",
+		"maxyear":"2015",
+		"redshift":[
+			{
+				"value":"0.02",
+				"source":"1,2"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-16:53:37.10",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"05:30:13.08",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57041.5",
+				"band":"",
+				"abmag":"17.0",
+				"source":"1,2"
+			}
+		]
+	}
 }

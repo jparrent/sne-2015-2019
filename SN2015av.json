@@ -1,57 +1,104 @@
 {
-    "SN2015av": {
-        "name": "SN2015av",
-        "aliases": [
-            "SN2015av",
-            "PSN J20293645-4350277"
-        ],
-        "sources": [
-            {
-                "name": "http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "2",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.cbat.eps.harvard.edu/iau/cbet/004100/CBET004199.txt'>CBET 4199</a>",
-                "alias": "3"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ic",
-                "source": "1,2"
-            }
-        ],
-        "discoverday": "15",
-        "discoverer": "Stu Parker",
-        "discovermonth": "11",
-        "discoveryear": "2015",
-        "galdec": "-435028",
-        "galra": "202938",
-        "host": "ESO 285-G20",
-        "hvel": "6712",
-        "lumdist": "101.97",
-        "maxabsmag": "-17.442",
-        "maxappmag": "17.6",
-        "maxday": "15",
-        "maxmonth": "11",
-        "maxyear": "2015",
-        "redshift": "0.02265",
-        "sndec": "-43:50:27.7",
-        "snra": "20:29:36.45",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57341.5",
-                "band": "",
-                "abmag": "17.6",
-                "source": "3,2"
-            }
-        ]
-    }
+	"SN2015av":{
+		"name":"SN2015av",
+		"aliases":[
+			"SN2015av",
+			"PSN J20293645-4350277"
+		],
+		"sources":[
+			{
+				"name":"Asiago Supernova Catalogue",
+				"url":"http://graspa.oapd.inaf.it/cgi-bin/sncat.php",
+				"alias":"1",
+				"secondary":true
+			},
+			{
+				"name":"CBET 4199",
+				"url":"http://www.cbat.eps.harvard.edu/iau/cbet/004100/CBET004199.txt",
+				"alias":"2"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"3",
+				"secondary":true
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ic",
+				"source":"1,2,3"
+			}
+		],
+		"discoverday":"15",
+		"discoverer":"Stu Parker",
+		"discovermonth":"11",
+		"discoveryear":"2015",
+		"galdec":[
+			{
+				"value":"-43:50:28",
+				"source":"1"
+			}
+		],
+		"galra":[
+			{
+				"value":"20:29:38",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"E285-G20",
+				"source":"1"
+			},
+			{
+				"value":"ESO 285-G20",
+				"source":"2,3"
+			}
+		],
+		"hvel":[
+			{
+				"value":"6712",
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"100",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-17",
+		"maxappmag":"17.6",
+		"maxday":"15",
+		"maxmonth":"11",
+		"maxyear":"2015",
+		"redshift":[
+			{
+				"value":"0.023",
+				"source":"2,3"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-43:50:27.7",
+				"source":"1,2,3"
+			}
+		],
+		"snra":[
+			{
+				"value":"20:29:36.45",
+				"source":"1,2,3"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57341.5",
+				"band":"",
+				"abmag":"17.6",
+				"source":"2,3"
+			}
+		]
+	}
 }

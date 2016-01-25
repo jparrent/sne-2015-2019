@@ -1,53 +1,80 @@
 {
-    "PS15uj": {
-        "name": "PS15uj",
-        "aliases": [
-            "PS15uj"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.astronomerstelegram.org/?read=7295'>ATEL 7295</a>",
-                "alias": "2"
-            },
-            {
-                "name": "Joseph Brimacombe",
-                "alias": "3"
-            }
-        ],
-        "discoverday": "28",
-        "discoverer": "PS1",
-        "discovermonth": "3",
-        "discoveryear": "2015",
-        "hvel": "3617",
-        "lumdist": "54.226",
-        "maxabsmag": "-16.671",
-        "maxappmag": "17",
-        "maxday": "28",
-        "maxmonth": "3",
-        "maxyear": "2015",
-        "redshift": "0.01214",
-        "sndec": "-22:08:37.6",
-        "snra": "10:19:21.35",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57109.5",
-                "band": "",
-                "abmag": "17.0",
-                "source": "2,1"
-            },
-            {
-                "timeunit": "MJD",
-                "time": "57110.694",
-                "band": "C",
-                "abmag": "17.0",
-                "source": "3,1"
-            }
-        ]
-    }
+	"PS15uj":{
+		"name":"PS15uj",
+		"aliases":[
+			"PS15uj"
+		],
+		"sources":[
+			{
+				"name":"ATEL 7295",
+				"url":"http://www.astronomerstelegram.org/?read=7295",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			},
+			{
+				"name":"Joseph Brimacombe",
+				"alias":"3"
+			}
+		],
+		"discoverday":"28",
+		"discoverer":"PS1",
+		"discovermonth":"3",
+		"discoveryear":"2015",
+		"hvel":[
+			{
+				"value":"3617",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"54.23",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-16.67",
+		"maxappmag":"17",
+		"maxday":"28",
+		"maxmonth":"3",
+		"maxyear":"2015",
+		"redshift":[
+			{
+				"value":"0.01214",
+				"source":"1,2"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-22:08:37.6",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"10:19:21.35",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57109.5",
+				"band":"",
+				"abmag":"17.0",
+				"source":"1,2"
+			},
+			{
+				"timeunit":"MJD",
+				"time":"57110.694",
+				"band":"C",
+				"abmag":"17.0",
+				"source":"3,2"
+			}
+		]
+	}
 }

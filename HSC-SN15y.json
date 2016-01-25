@@ -1,38 +1,50 @@
 {
-    "HSC-SN15y": {
-        "name": "HSC-SN15y",
-        "aliases": [
-            "HSC-SN15y"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.astronomerstelegram.org/?read=7565'>ATEL 7565</a>",
-                "alias": "2"
-            }
-        ],
-        "discoverday": "23",
-        "discoverer": "Subaru/Hyper Suprime-Cam",
-        "discovermonth": "5",
-        "discoveryear": "2015",
-        "maxappmag": "23.1",
-        "maxday": "23",
-        "maxmonth": "5",
-        "maxyear": "2015",
-        "sndec": "+47:21:21.1",
-        "snra": "15:24:01.49",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57165.5",
-                "band": "",
-                "abmag": "23.1",
-                "source": "2,1"
-            }
-        ]
-    }
+	"HSC-SN15y":{
+		"name":"HSC-SN15y",
+		"aliases":[
+			"HSC-SN15y"
+		],
+		"sources":[
+			{
+				"name":"ATEL 7565",
+				"url":"http://www.astronomerstelegram.org/?read=7565",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"discoverday":"23",
+		"discoverer":"Subaru/Hyper Suprime-Cam",
+		"discovermonth":"5",
+		"discoveryear":"2015",
+		"maxappmag":"23.1",
+		"maxday":"23",
+		"maxmonth":"5",
+		"maxyear":"2015",
+		"sndec":[
+			{
+				"value":"+47:21:21.1",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"15:24:01.49",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57165.5",
+				"band":"",
+				"abmag":"23.1",
+				"source":"1,2"
+			}
+		]
+	}
 }

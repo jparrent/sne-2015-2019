@@ -1,48 +1,75 @@
 {
-    "ASASSN-15bm": {
-        "name": "ASASSN-15bm",
-        "aliases": [
-            "ASASSN-15bm"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://www.astronomerstelegram.org/?read=6983'>ATEL 6983</a>",
-                "alias": "2"
-            }
-        ],
-        "claimedtype": [
-            {
-                "type": "Ia",
-                "source": "1"
-            }
-        ],
-        "discoverday": "27",
-        "discoverer": "All Sky Automated Survey for SuperNovae (ASAS-SN)",
-        "discovermonth": "1",
-        "discoveryear": "2015",
-        "hvel": "6230",
-        "lumdist": "94.4",
-        "maxabsmag": "-18.7",
-        "maxappmag": "16.2",
-        "maxday": "27",
-        "maxmonth": "1",
-        "maxyear": "2015",
-        "redshift": "0.021",
-        "sndec": "-05:37:37.0",
-        "snra": "15:05:51.58",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57049.5",
-                "band": "",
-                "abmag": "16.2",
-                "source": "2,1"
-            }
-        ]
-    }
+	"ASASSN-15bm":{
+		"name":"ASASSN-15bm",
+		"aliases":[
+			"ASASSN-15bm"
+		],
+		"sources":[
+			{
+				"name":"ATEL 6983",
+				"url":"http://www.astronomerstelegram.org/?read=6983",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"Ia",
+				"source":"1,2"
+			}
+		],
+		"discoverday":"27",
+		"discoverer":"All Sky Automated Survey for SuperNovae (ASAS-SN)",
+		"discovermonth":"1",
+		"discoveryear":"2015",
+		"hvel":[
+			{
+				"value":"6200",
+				"source":"D"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"94",
+				"source":"D"
+			}
+		],
+		"maxabsmag":"-19",
+		"maxappmag":"16.2",
+		"maxday":"27",
+		"maxmonth":"1",
+		"maxyear":"2015",
+		"redshift":[
+			{
+				"value":"0.021",
+				"source":"1,2"
+			}
+		],
+		"sndec":[
+			{
+				"value":"-05:37:37.0",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"15:05:51.58",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57049.5",
+				"band":"",
+				"abmag":"16.2",
+				"source":"1,2"
+			}
+		]
+	}
 }

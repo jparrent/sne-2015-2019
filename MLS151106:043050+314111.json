@@ -1,38 +1,50 @@
 {
-    "MLS151106:043050+314111": {
-        "name": "MLS151106:043050+314111",
-        "aliases": [
-            "MLS151106:043050+314111"
-        ],
-        "sources": [
-            {
-                "name": "<a href='http://www.rochesterastronomy.org/snimages/snredshiftall.html'>Latest Supernovae</a>",
-                "alias": "1",
-                "secondary": true
-            },
-            {
-                "name": "<a href='http://nesssi.cacr.caltech.edu/catalina/AllSN.html'>CRTS SN page</a>",
-                "alias": "2"
-            }
-        ],
-        "discoverday": "5",
-        "discoverer": "CRTS",
-        "discovermonth": "11",
-        "discoveryear": "2015",
-        "maxappmag": "19.9",
-        "maxday": "5",
-        "maxmonth": "11",
-        "maxyear": "2015",
-        "sndec": "+31:41:11.0",
-        "snra": "04:30:50.25",
-        "photometry": [
-            {
-                "timeunit": "MJD",
-                "time": "57331.5",
-                "band": "",
-                "abmag": "19.9",
-                "source": "2,1"
-            }
-        ]
-    }
+	"MLS151106:043050+314111":{
+		"name":"MLS151106:043050+314111",
+		"aliases":[
+			"MLS151106:043050+314111"
+		],
+		"sources":[
+			{
+				"name":"CRTS SN page",
+				"url":"http://nesssi.cacr.caltech.edu/catalina/AllSN.html",
+				"alias":"1"
+			},
+			{
+				"name":"Latest Supernovae",
+				"url":"http://www.rochesterastronomy.org/snimages/snredshiftall.html",
+				"alias":"2",
+				"secondary":true
+			}
+		],
+		"discoverday":"5",
+		"discoverer":"CRTS",
+		"discovermonth":"11",
+		"discoveryear":"2015",
+		"maxappmag":"19.9",
+		"maxday":"5",
+		"maxmonth":"11",
+		"maxyear":"2015",
+		"sndec":[
+			{
+				"value":"+31:41:11.0",
+				"source":"1,2"
+			}
+		],
+		"snra":[
+			{
+				"value":"04:30:50.25",
+				"source":"1,2"
+			}
+		],
+		"photometry":[
+			{
+				"timeunit":"MJD",
+				"time":"57331.5",
+				"band":"",
+				"abmag":"19.9",
+				"source":"1,2"
+			}
+		]
+	}
 }
